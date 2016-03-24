@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+    .sorting_asc,.sorting{width:100% !important;}
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 8px;
+    white-space: nowrap;
+    width: 50%;
+    min-width: 50%;
+    float: left;
+}
+
+@media screen and (max-width: 767px){
+	div.dataTables_wrapper div.dataTables_info {
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+}
+.ibox-tools a {
+    color: #fff !important;
+}
